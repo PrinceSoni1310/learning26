@@ -23,6 +23,8 @@ import { NetflixSports } from "./components/Netflix/NetflixSports";
 import { NetflixTv } from "./components/Netflix/NetflixTv";
 import { Subscription } from "./components/Netflix/Subscription";
 import { Navbar } from "./components/Navbar";
+import { Watch } from "./components/Netflix/Watch";
+import { ErrorNotFound } from "./components/Netflix/ErrorNotFound";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -54,6 +56,14 @@ function App() {
           <Route
             path="/subscription"
             element={<Subscription></Subscription>}
+          ></Route>
+          <Route
+          path="/*"
+          element={<ErrorNotFound></ErrorNotFound>}
+          ></Route>
+          <Route
+          path="/watch/:name"
+          element={<Watch/>}
           ></Route>
         </Routes>
 
