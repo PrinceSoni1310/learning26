@@ -1,0 +1,27 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+export const Teams = () => {
+   const teams = [
+    { teamId: 1, teamName: "CSK", captian: "MS Dhoni" },
+    { teamId: 2, teamName: "RCB", captian: "Virat Kohli" },
+    { teamId: 3, teamName: "MI", captain: "Rohit Sharma" },
+    { teamId: 4, teamName: "LSG", captain: "Rishabh Pant" },
+    { teamId: 5, teamName: "PBKS", captain: "S Iyer" },
+    { teamId: 6, teamName: "SRH", captain: "Pat Cumminus" },
+    { teamId: 7, teamName: "DC", captain: "Axar Patel" },
+    { teamId: 8, teamName: "GT", captian: " S Gill" },
+    { teamId: 9, teamName: "KKR", captain: "V Iyer" },
+    { teamId: 10, teamName: "RR", captain: "R jadeja" },
+  ];
+  return (
+    <div>
+      <h1 style={{textAlign:"center"}}>Teams</h1>
+      {teams.map((team) => {
+        return <li key={team.teamId} style={{textAlign:"center"}}>
+            <Link to={`/watchteam/${team.teamName}`} >{team.teamName}</Link>
+        </li>;
+      })}
+    </div>
+  );
+};

@@ -4,7 +4,7 @@
 // import { HeaderComponent } from "./components/HeaderComponent";
 // import ContentComponent from "./components/ContentComponent";
 // import { FooterComponent } from "./components/FooterComponent";
-import "./App.css";
+// import "./App.css";
 // import { MapDemo1 } from "./components/MapDemo1";
 // import { MapDemo2 } from "./components/MapDemo2";
 // import { MapDemo3 } from "./components/MapDemo3";
@@ -16,7 +16,7 @@ import "./App.css";
 // import { MapDemo9 } from "./components/task/MapDemo9";
 // import { MapDemo10 } from "./components/task/MapDemo10";
 import { HomeComponent } from "./components/Netflix/HomeComponent";
-import { Route, Routes } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
 import { NetflixMovies } from "./components/Netflix/NetflixMovies";
 import { NetflixShows } from "./components/Netflix/NetflixShows";
 import { NetflixSports } from "./components/Netflix/NetflixSports";
@@ -26,13 +26,41 @@ import { Navbar } from "./components/Navbar";
 import { Watch } from "./components/Netflix/Watch";
 import { ErrorNotFound } from "./components/Netflix/ErrorNotFound";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { Route, Routes } from "react-router-dom";
+import { HomePage } from "./components/IplTeams/HomePage";
+import { WatchTeam } from "./components/IplTeams/WatchTeam";
+import { Teams } from "./components/IplTeams/Teams";
+
 function App() {
-  // const [count, setCount] = useState(0)
   return (
     <>
       <div>
-        <Navbar></Navbar>
+
+
+
+
+
+<Navbar></Navbar>
+
         <Routes>
+            <Route path="/homepage" element={<HomePage></HomePage>}></Route>
+            <Route path="/teams" element={<Teams></Teams>}></Route>
+            <Route path="/watchteam/:name" element={<WatchTeam></WatchTeam>}></Route>
+        {/* //----------------------------------------- */}
+        
           <Route 
           path="/" 
           element={<HomeComponent></HomeComponent>}

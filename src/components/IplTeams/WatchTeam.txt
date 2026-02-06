@@ -1,0 +1,14 @@
+import React from 'react'
+import { useParams } from 'react-router-dom'
+import { Teams } from './Teams'
+import { TeamDetails } from './TeamDetails'
+
+export const WatchTeam = () => {
+
+    const teamDetail = useParams().name 
+  return (
+    <div>
+        <h1>this is {teamDetail}</h1>
+    </div>
+  )
+}
