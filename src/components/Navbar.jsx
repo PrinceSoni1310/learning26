@@ -79,11 +79,11 @@ export const Navbar = () => {
               Employees
             </Link>
           </li>
-          {/* <li className="nav-item">
-            <Link className="nav-link" to="/employeelist">
-              EmployeeList
+          <li className="nav-item">
+            <Link className="nav-link" to="/onchange">
+              OnChange
             </Link>
-          </li> */}
+          </li>
         </ul>
 
         <ul className="navbar-nav ml-auto">
