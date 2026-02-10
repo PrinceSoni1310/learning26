@@ -43,6 +43,10 @@ import { Route, Routes } from "react-router-dom";
 import { HomePage } from "./components/IplTeams/HomePage";
 import { WatchTeam } from "./components/IplTeams/WatchTeam";
 import { Teams } from "./components/IplTeams/Teams";
+import { FunctionDemo1 } from "./components/FunctionDemo1";
+import { UseStateDemo1 } from "./components/useState/UseStateDemo1";
+import { UseStateDemo2 } from "./components/useState/UseStateDemo2";
+import { UseStateDemo3 } from "./components/useState/UseStateDemo3";
 
 function App() {
   return (
@@ -59,6 +63,13 @@ function App() {
             <Route path="/homepage" element={<HomePage></HomePage>}></Route>
             <Route path="/teams" element={<Teams></Teams>}></Route>
             <Route path="/watchteam/:name" element={<WatchTeam></WatchTeam>}></Route>
+        {/* //----------------------------------------- */}
+
+        <Route path="/functiondemo1" element={<FunctionDemo1></FunctionDemo1>}></Route>
+        <Route path="/useStateDemo1" element={<UseStateDemo1></UseStateDemo1>}></Route>
+        <Route path="/useStateDemo2" element={<UseStateDemo2></UseStateDemo2>}></Route>
+        <Route path="/useStateDemo3" element={<UseStateDemo3></UseStateDemo3>}></Route>
+
         {/* //----------------------------------------- */}
         
           <Route 
