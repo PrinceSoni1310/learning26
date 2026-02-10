@@ -47,6 +47,8 @@ import { FunctionDemo1 } from "./components/FunctionDemo1";
 import { UseStateDemo1 } from "./components/useState/UseStateDemo1";
 import { UseStateDemo2 } from "./components/useState/UseStateDemo2";
 import { UseStateDemo3 } from "./components/useState/UseStateDemo3";
+import { Employee } from "./components/props/Employees";
+import { EmployeeList } from "./components/props/EmployeeList";
 
 function App() {
   return (
@@ -104,6 +106,11 @@ function App() {
           path="/watch/:name"
           element={<Watch/>}
           ></Route>
+
+          -------------------------------------------------------------
+
+          <Route path="/employees" element={<Employee></Employee>}></Route>
+          <Route path="/employeelist" element={<EmployeeList></EmployeeList>}></Route>
         </Routes>
 
         {/* <HeaderComponent />

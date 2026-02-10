@@ -74,6 +74,16 @@ export const Navbar = () => {
               useStateDemo3
             </Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/employees">
+              Employees
+            </Link>
+          </li>
+          {/* <li className="nav-item">
+            <Link className="nav-link" to="/employeelist">
+              EmployeeList
+            </Link>
+          </li> */}
         </ul>
 
         <ul className="navbar-nav ml-auto">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardComponent } from './props/CardComponent'
 
 export const FunctionDemo1 = () => {
 
@@ -15,6 +16,8 @@ export const FunctionDemo1 = () => {
         <h1>Function Demo 1</h1>
         <button onClick={test}>Click Me</button>
         <button onClick={()=>test2("React Js")}>Click Me 2</button>
+
+        <CardComponent title = "Fun Demo 1 " description = "this is fun demo 1 "></CardComponent>
     </div>
   )
 }
