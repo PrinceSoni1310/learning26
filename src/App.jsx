@@ -26,19 +26,6 @@ import { Navbar } from "./components/Navbar";
 import { Watch } from "./components/Netflix/Watch";
 import { ErrorNotFound } from "./components/Netflix/ErrorNotFound";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "./components/IplTeams/HomePage";
 import { WatchTeam } from "./components/IplTeams/WatchTeam";
@@ -50,14 +37,18 @@ import { UseStateDemo3 } from "./components/useState/UseStateDemo3";
 import { Employee } from "./components/props/Employees";
 import { EmployeeList } from "./components/props/EmployeeList";
 import { OnChange } from "./components/OnChange";
+import { Teacher } from "./components/props/task/Teacher";
+import { Students } from "./components/props/task/Students";
+import { Subjects } from "./components/props/task/Subjects";
+import { FormDemo1 } from "./components/form/FormDemo1";
+import { FormDemo2 } from "./components/form/FormDemo2";
+import { FormDemo3 } from "./components/form/FormDemo3";
+import { FormDemo4 } from "./components/form/FormDemo4";
 
 function App() {
   return (
     <>
       <div>
-
-
-
 
 
 <Navbar></Navbar>
@@ -112,9 +103,19 @@ function App() {
 
           <Route path="/employees" element={<Employee></Employee>}></Route>
           <Route path="/employeelist" element={<EmployeeList></EmployeeList>}></Route>
+          <Route path="/teacher" element={<Teacher></Teacher>}></Route>
+          <Route path="/students" element={<Students></Students>} ></Route>
+          <Route path="/subjects" element={<Subjects></Subjects>}></Route>
 
           {/* -------------------------------------------------------------- */}
           <Route path="/onchange" element={<OnChange></OnChange>}></Route>
+
+          {/* --------------------------------------------------------------- */}
+
+          <Route path="/formdemo1" element= {<FormDemo1></FormDemo1>}></Route>
+          <Route path="/formdemo2" element= {<FormDemo2></FormDemo2>}></Route>
+          <Route path="/formdemo3" element= {<FormDemo3></FormDemo3>}></Route>
+          <Route path="/formdemo4" element= {<FormDemo4></FormDemo4>}></Route>
         </Routes>
 
         {/* <HeaderComponent />
