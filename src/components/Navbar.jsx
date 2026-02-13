@@ -21,7 +21,7 @@ export const Navbar = () => {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/netflixshows">
               Shows
             </Link>
@@ -31,9 +31,9 @@ export const Navbar = () => {
             <Link className="nav-link" to="/netflixmovies">
               Movies
             </Link>
-          </li>
+          </li> */}
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/netflixsports">
               Sports
             </Link>
@@ -43,7 +43,7 @@ export const Navbar = () => {
             <Link className="nav-link" to="/netflixtv">
               TV
             </Link>
-          </li>
+          </li> */}
 
           <li className="nav-item">
             <Link className="nav-link" to="/homepage">
@@ -63,7 +63,7 @@ export const Navbar = () => {
             </Link>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/useStateDemo2">
              useStateDemo2
             </Link>
@@ -73,7 +73,7 @@ export const Navbar = () => {
             <Link className="nav-link" to="/useStateDemo3">
               useStateDemo3
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/employees">
               Employees
@@ -89,7 +89,7 @@ export const Navbar = () => {
               formdemo1
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/formdemo2">
               FormDemo2
             </Link>
@@ -98,10 +98,30 @@ export const Navbar = () => {
             <Link className="nav-link" to="/formdemo3">
               FormDemo3
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/formdemo4">
               FormDemo4
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation1">
+              formvalidation1
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation2">
+              FormValidation2
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation3">
+              FormValidation3
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation4">
+              FormValidation4
             </Link>
           </li>
            <li className="nav-item">

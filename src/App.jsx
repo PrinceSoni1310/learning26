@@ -44,6 +44,11 @@ import { FormDemo1 } from "./components/form/FormDemo1";
 import { FormDemo2 } from "./components/form/FormDemo2";
 import { FormDemo3 } from "./components/form/FormDemo3";
 import { FormDemo4 } from "./components/form/FormDemo4";
+// import { FormValidation1 } from "./components/form/FormValidation";
+import { FormValidation1 } from "./components/form/FormValidation1";
+import { FormValidation2 } from "./components/form/FormValidation2";
+import { FormValidation3 } from "./components/form/FormValidation3";
+import { FromValidation4 } from "./components/form/FromValidation4";
 
 function App() {
   return (
@@ -116,6 +121,11 @@ function App() {
           <Route path="/formdemo2" element= {<FormDemo2></FormDemo2>}></Route>
           <Route path="/formdemo3" element= {<FormDemo3></FormDemo3>}></Route>
           <Route path="/formdemo4" element= {<FormDemo4></FormDemo4>}></Route>
+          <Route path="/formvalidation1" element={<FormValidation1/>}></Route>
+          <Route path="/formvalidation2" element={<FormValidation2/>}></Route>
+          <Route path="/formvalidation3" element={<FormValidation3/>}></Route>
+          <Route path="/formvalidation4" element={<FromValidation4/>}></Route>
+          
         </Routes>
 
         {/* <HeaderComponent />

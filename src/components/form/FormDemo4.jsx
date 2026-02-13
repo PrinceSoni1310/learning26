@@ -34,7 +34,7 @@ export const FormDemo4 = () => {
           <option value="India">India</option>
           <option value="England">England</option>
           <option value="USA">USA</option>
-          <option value="Chaina">Chaina</option>
+          <option value="China">China</option>
         </select>
 
         <br />
