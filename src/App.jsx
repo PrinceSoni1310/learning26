@@ -15,8 +15,8 @@
 // import { MapDemo8 } from "./components/task/MapDemo8";
 // import { MapDemo9 } from "./components/task/MapDemo9";
 // import { MapDemo10 } from "./components/task/MapDemo10";
+import { Route, Routes } from "react-router-dom";
 import { HomeComponent } from "./components/Netflix/HomeComponent";
-// import { Route, Routes } from "react-router-dom";
 import { NetflixMovies } from "./components/Netflix/NetflixMovies";
 import { NetflixShows } from "./components/Netflix/NetflixShows";
 import { NetflixSports } from "./components/Netflix/NetflixSports";
@@ -25,8 +25,6 @@ import { Subscription } from "./components/Netflix/Subscription";
 import { Navbar } from "./components/Navbar";
 import { Watch } from "./components/Netflix/Watch";
 import { ErrorNotFound } from "./components/Netflix/ErrorNotFound";
-
-import { Route, Routes } from "react-router-dom";
 import { HomePage } from "./components/IplTeams/HomePage";
 import { WatchTeam } from "./components/IplTeams/WatchTeam";
 import { Teams } from "./components/IplTeams/Teams";
@@ -44,11 +42,13 @@ import { FormDemo1 } from "./components/form/FormDemo1";
 import { FormDemo2 } from "./components/form/FormDemo2";
 import { FormDemo3 } from "./components/form/FormDemo3";
 import { FormDemo4 } from "./components/form/FormDemo4";
-// import { FormValidation1 } from "./components/form/FormValidation";
 import { FormValidation1 } from "./components/form/FormValidation1";
 import { FormValidation2 } from "./components/form/FormValidation2";
 import { FormValidation3 } from "./components/form/FormValidation3";
-import { FromValidation4 } from "./components/form/FromValidation4";
+import { FormValidation4 } from "./components/form/FormValidation4";
+import { FormValidation5 } from "./components/form/FormValidation5";
+import { FormValidation6 } from "./components/form/FormValidation6";
+import { FormValidation7 } from "./components/form/FormValidation7";
 
 function App() {
   return (
@@ -124,7 +124,10 @@ function App() {
           <Route path="/formvalidation1" element={<FormValidation1/>}></Route>
           <Route path="/formvalidation2" element={<FormValidation2/>}></Route>
           <Route path="/formvalidation3" element={<FormValidation3/>}></Route>
-          <Route path="/formvalidation4" element={<FromValidation4/>}></Route>
+          <Route path="/formvalidation4" element={<FormValidation4/>}></Route>
+          <Route path="/formvalidation5" element={<FormValidation5/>}></Route>
+          <Route path="/formvalidation6" element={<FormValidation6/>}></Route>
+          <Route path="/formvalidation7" element={<FormValidation7/>}></Route>
           
         </Routes>
 

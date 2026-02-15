@@ -74,7 +74,7 @@ export const Navbar = () => {
               useStateDemo3
             </Link>
           </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/employees">
               Employees
             </Link>
@@ -88,7 +88,7 @@ export const Navbar = () => {
             <Link className="nav-link" to="/formdemo1">
               formdemo1
             </Link>
-          </li>
+          </li> */}
           {/* <li className="nav-item">
             <Link className="nav-link" to="/formdemo2">
               FormDemo2
@@ -104,11 +104,11 @@ export const Navbar = () => {
               FormDemo4
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/formvalidation1">
               formvalidation1
             </Link>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="/formvalidation2">
               FormValidation2
@@ -122,6 +122,21 @@ export const Navbar = () => {
           <li className="nav-item">
             <Link className="nav-link" to="/formvalidation4">
               FormValidation4
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation5">
+              FormValidation5
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation6">
+              FormValidation6
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/formvalidation7">
+              FormValidation7
             </Link>
           </li>
            <li className="nav-item">
