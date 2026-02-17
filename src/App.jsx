@@ -49,6 +49,9 @@ import { FormValidation4 } from "./components/form/FormValidation4";
 import { FormValidation5 } from "./components/form/FormValidation5";
 import { FormValidation6 } from "./components/form/FormValidation6";
 import { FormValidation7 } from "./components/form/FormValidation7";
+import { ApiDemo1 } from "./components/Api/ApiDemo1";
+import { ApiDemo3 } from "./components/Api/ApiDemo3";
+import { ApiDemo2 } from "./components/Api/ApiDemo2";
 
 function App() {
   return (
@@ -128,6 +131,11 @@ function App() {
           <Route path="/formvalidation5" element={<FormValidation5/>}></Route>
           <Route path="/formvalidation6" element={<FormValidation6/>}></Route>
           <Route path="/formvalidation7" element={<FormValidation7/>}></Route>
+
+          {/* ------------------------------------------------------------------- */}
+          <Route path="/apidemo1" element={<ApiDemo1/>}></Route>
+          <Route path="/apidemo2" element={<ApiDemo2/>}></Route>
+          <Route path="/apidemo3" element={<ApiDemo3/>}></Route>
           
         </Routes>
 
