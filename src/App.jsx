@@ -52,6 +52,10 @@ import { FormValidation7 } from "./components/form/FormValidation7";
 import { ApiDemo1 } from "./components/Api/ApiDemo1";
 import { ApiDemo3 } from "./components/Api/ApiDemo3";
 import { ApiDemo2 } from "./components/Api/ApiDemo2";
+import { OmdbSearch } from "./components/Api/OmdbSearch";
+import { ApiDemo4 } from "./components/Api/Task/ApiDemo4";
+import { MovieDetails } from "./components/Api/Task/MovieDetails";
+import { ApiDemo5 } from "./components/Api/Task/ApiDemo5";
 
 function App() {
   return (
@@ -107,7 +111,7 @@ function App() {
           element={<Watch/>}
           ></Route>
 
-          {/* ------------------------------------------------------------- */}
+          {/* --------------------------------------------------------------- */}
 
           <Route path="/employees" element={<Employee></Employee>}></Route>
           <Route path="/employeelist" element={<EmployeeList></EmployeeList>}></Route>
@@ -115,7 +119,7 @@ function App() {
           <Route path="/students" element={<Students></Students>} ></Route>
           <Route path="/subjects" element={<Subjects></Subjects>}></Route>
 
-          {/* -------------------------------------------------------------- */}
+          {/* --------------------------------------------------------------- */}
           <Route path="/onchange" element={<OnChange></OnChange>}></Route>
 
           {/* --------------------------------------------------------------- */}
@@ -132,10 +136,14 @@ function App() {
           <Route path="/formvalidation6" element={<FormValidation6/>}></Route>
           <Route path="/formvalidation7" element={<FormValidation7/>}></Route>
 
-          {/* ------------------------------------------------------------------- */}
+          {/* --------------------------------------------------------------- */}
           <Route path="/apidemo1" element={<ApiDemo1/>}></Route>
           <Route path="/apidemo2" element={<ApiDemo2/>}></Route>
           <Route path="/apidemo3" element={<ApiDemo3/>}></Route>
+          <Route path="/apidemo4" element={<ApiDemo4/>}></Route>
+          <Route path="/omdbsearch" element={<OmdbSearch/>}></Route>
+          <Route path="/moviedetails/:id" element={<MovieDetails/>}></Route>
+          <Route path="/apidemo5" element={<ApiDemo5/>}></Route>
           
         </Routes>
 

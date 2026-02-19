@@ -20,11 +20,7 @@ export const ApiDemo3 = () => {
     <div style={{textAlign:'center'}}>
         <h1>ApiDemo3</h1>
         <button onClick={getApi}>GET</button>
-        {/* {
-            api.map((a)=> {
-               return <li>{a.body}</li>
-            })
-        } */}
+       
 
     <table className='table table-dark' border = "2">
         <thead>
