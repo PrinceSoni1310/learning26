@@ -56,6 +56,9 @@ import { OmdbSearch } from "./components/Api/OmdbSearch";
 import { ApiDemo4 } from "./components/Api/Task/ApiDemo4";
 import { MovieDetails } from "./components/Api/Task/MovieDetails";
 import { ApiDemo5 } from "./components/Api/Task/ApiDemo5";
+import { ApiDemo6 } from "./components/Api/Post/ApiDemo6";
+import { ApiDemo7 } from "./components/Api/Post/ApiDemo7";
+
 
 function App() {
   return (
@@ -144,6 +147,8 @@ function App() {
           <Route path="/omdbsearch" element={<OmdbSearch/>}></Route>
           <Route path="/moviedetails/:id" element={<MovieDetails/>}></Route>
           <Route path="/apidemo5" element={<ApiDemo5/>}></Route>
+          <Route path="/apidemo6" element={<ApiDemo6/>}></Route>
+          <Route path="/apidemo7" element={<ApiDemo7/>}></Route>
           
         </Routes>
 

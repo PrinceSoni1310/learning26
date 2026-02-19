@@ -165,6 +165,16 @@ export const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/apidemo6">
+              ApiDemo6
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/apidemo7">
+              ApiDemo7
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/omdbsearch">
               omdbSearch
             </Link>
